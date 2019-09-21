@@ -33,6 +33,6 @@ If anything, it is much more effective as a backup in case the heavily-relied up
 Various edge cases such as "style=display:none" are unextractable with .text(), as well as the fact that you cannot directly check for a completely blank text with &nbsp without resorting to tricks like <HTMLtag>.get_attribute("textContent") != '\xa0'. Many more exist, and you cannot really expect any website to work consistently, which leads to #4.
 
 
-# 4. The Importance of Try-Catch Statements
+# 4. The Importance of Try-Catch Statements and Print Statements
 
 Try and catch statements are very crucial to any kind of web scraping, but must be used with discretion since they do a good job hiding unintended exceptions or bugs; much of the print statements used for debugging were therefore placed in those try except statements and it saved me a considerable amount of time debugging and detecting the source of the exception(s) that occurs.
