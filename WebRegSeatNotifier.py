@@ -6,7 +6,6 @@ from selenium.webdriver.chrome.options import Options
 import os
 
 classToPick = "PHYS 2C"
-listOfClassesTargeted = ["CSE 21", "PHYS 2B", "WCWP 10B", "CSE 95", "CSE 140L", "OPTH 296", "CSE 11, AWP 2B"]
 startNonLectureTagNum = 1 #For DI, SE, PR, maybe labs, etc
 NON_LECTURE_TAG_STR_LENGTH = 3
 LECTURE_TAG_STR_LENGTH = 2
