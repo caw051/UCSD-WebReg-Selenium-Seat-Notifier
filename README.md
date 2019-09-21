@@ -1,5 +1,5 @@
 
-# WebReg-Selenium-Seat-Extractor
+# UCSD-WebReg-Selenium-Seat-Extractor
 Designed as proof of concept and for showcasing selenium based skill, it logins into UCSD's WebReg and extracts a sample class(in this case, PHYS 2C B01) and gets the # of seats that are present for that particular section. Only applicable for UCSD based credentials.
 
 This was originally transferred from another repo I worked on(previously with 23 commits), primarily to make it more viewable for public.
