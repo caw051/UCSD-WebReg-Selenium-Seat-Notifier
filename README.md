@@ -1,7 +1,7 @@
 
 # Disclaimer:
 
-This proof of concept was previously made before 2FA is made mandatory in UCSD's Single Sign On system on October 16, 2019. At the time that the script was effectively finalized, it was still possible to opt out of using 2FA, allowing Selenium to login to WebReg without any issues. However, since 2FA was made mandatory on October 16, it is no longer possible to login to WebReg in this fashion. Thus, when taking a look at the script, please keep this disclaimer in mind.
+This proof of concept was previously made before 2FA is made mandatory in UCSD's Single Sign On system on October 16, 2019. At the time that the script was effectively finalized, it was still possible to opt out of using 2FA, allowing the Selenium-based browser to login to WebReg without any issues. However, since 2FA was made mandatory on October 16, it is no longer possible to login to WebReg in this fashion. Thus, when taking a look at the script, please keep this disclaimer in mind.
 
 
 # UCSD-WebReg-Selenium-Seat-Notifier
