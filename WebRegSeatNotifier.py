@@ -255,5 +255,11 @@ else:
 
 print(seatNotifierMessage)
 
+#Emails and notifies the student regarding seat count for a desired course.
+server = smtplib.SMTP('smtp.gmail.com', 587)
+server = smtplib.SMTP_SSL('smtp.googlemail.com', 465)
+server.login('<The Email Used to Notify Students>', '<Password to the Email Used to Notify Students>') #Logs into the email address used to notify students about seat count.
+server.sendmail('<The Email Used to Notify Students>','<Student Email to be Notified>', seatNotifierMessage) #Sends an email to a student with the seat count for a given course.
+
 browser.close()
 
