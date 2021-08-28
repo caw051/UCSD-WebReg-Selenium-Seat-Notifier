@@ -1,11 +1,11 @@
 
 # Disclaimer:
 
-This proof of concept was previously made before 2FA is made mandatory in UCSD's Single Sign On system on October 16, 2019. At the time that the script was effectively finalized, it was still possible to opt out of using 2FA, allowing the Selenium-based browser to login to WebReg without any issues. However, since 2FA was made mandatory on October 16, it is no longer possible to login to WebReg in this fashion. Thus, when taking a look at the script, please keep this disclaimer in mind.
+This proof of concept was previously made before 2FA is made mandatory in UCSD's Single Sign On system on October 16, 2019. At the time that the script was effectively finalized, it was still possible to opt out of using 2FA, allowing the Selenium-based browser to log into WebReg without any issues. However, since 2FA was made mandatory on October 16, it is no longer possible to log into WebReg in this fashion. Thus, when taking a look at the script, please keep this disclaimer in mind.
 
 
 # UCSD-WebReg-Selenium-Seat-Notifier
-Designed as proof of concept and for showcasing Selenium-based skill, it logins into UCSD's WebReg and extracts a sample class(in this case, PHYS 2C B01) and gets the number of seats that are present for that particular section. Only applicable for UCSD based credentials.
+Designed as proof of concept and for showcasing Selenium-based skill, it logs into UCSD's WebReg and extracts a sample class(in this case, PHYS 2C B01) and gets the number of seats that are present for that particular section. Only applicable for UCSD based credentials.
 
 This was originally transferred from another repo I worked on(previously with 23 commits), primarily to make it more viewable for public.
 
